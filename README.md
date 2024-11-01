@@ -1,2 +1,2 @@
 # peronal-links
-Here, I organize and track interesting links, sorted by subject.
+[Find them here](https://github.com/Benjamin-Italiaander/peronal-links/wiki) 
