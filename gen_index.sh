@@ -24,6 +24,7 @@ done
 rm -rf ./site
 rm -rf ./docs
 rm ./peronal-links.wiki/_*
+
 mv -f ./peronal-links.wiki ./docs
 rm ./docs/Home.md
 rm -rf ./docs/*Footer*
@@ -31,11 +32,18 @@ rm -rf ./_Footer
 
 cp ./README.md ./docs/index.md
 mkdocs build
-mv  -f ./site/* ./ 
+
+for site in ./site/*; do
+	file="$(echo $site | sed 's/^.......//')"
+	rm -rf ./$file
+done
+
+mv  ./site/* ./ 
 rm -rf ./docs
 
 rm -rf ./peronal-links.wiki/
 rm -rf ./site
+
 git add *
 git commit -am "index"
 git push
