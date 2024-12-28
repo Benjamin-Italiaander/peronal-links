@@ -45,5 +45,5 @@ rm -rf ./peronal-links.wiki/
 rm -rf ./site
 
 git add *
-git commit -am "index"
+git commit -am "commited by gen_index.sh script"
 git push
