@@ -1,6 +1,8 @@
 # My personl link page
  This page is generated with the gen_index.sh command
- After making changes at the wiki you need to run the gen_index.sh to update this page
+ After making changes at the wiki you need to run the gen_index.sh to update this page 
+
+# The links \n
 [Nederlands Duch](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Dutch-‐-Nederlands) Links over de nederlandse taal 
 
 [Linux dev tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-CLI-developement-tools) Handy development tools in linux cli 
