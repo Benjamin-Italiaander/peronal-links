@@ -1,12 +1,12 @@
 #!/bin/bash
-
-echo "# My personl link page" > index.md
+echo "# My personl link page" > readme.md
 
 for f in ./peronal-links.wiki/*; do
 	title="$(cat $f | sed -n '/---/,/---/p'  | grep title: | sed 's/^........//' | sed  's/.$//')"
-	description="$(cat $f | sed -n '/---/,/---/p'  | grep description: | sed 's/^..............//' | sed  's/.$//')"
 	if [ "$title" ]; then
-		echo "[$title]($f) $description \n" >> index.md
+		description="$(cat $f | sed -n '/---/,/---/p'  | grep description: | sed 's/^..............//' | sed  's/.$//')"
+		url="$(echo $f | sed 's/^...//')"
+		echo "[$title](https://github.com/Benjamin-Italiaander/peronal-links/wiki/$url) $description \n" >> readme.md
 	fi	
 done
 
