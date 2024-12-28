@@ -5,7 +5,7 @@ echo "# My personl link page" > README.md
 echo " This page is generated with the gen_index.sh command"  >> README.md
 echo -e " After making changes at the wiki you need to run the gen_index.sh to update this page \n" >> README.md
 
-echo "# The links \n" >> README.md
+echo -e "# The links \n" >> README.md
 for f in ./peronal-links.wiki/*; do
 	title="$(cat $f | sed -n '/---/,/---/p'  | grep title: | sed 's/^........//' | sed  's/.$//')"
 	if [ "$title" ]; then
