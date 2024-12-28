@@ -29,7 +29,7 @@ rm -rf ./site
 rm -rf ./docs
 mv ./peronal-links.wiki ./docs
 rm ./docs/Home.md
-rm -rf ./docs/_Footer*
+rm -rf ./docs/*Footer*
 
 cp ./README.md ./docs/index.md
 mkdocs build
