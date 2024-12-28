@@ -1,5 +1,5 @@
 # My personal link page 
- Here a keep track of intesting sites and stuff. 
+ Here i keep track of intesting sites and stuff. 
 
  This page is generated with the gen_index.sh command
  After making changes at the wiki you need to run the gen_index.sh to update this page 
