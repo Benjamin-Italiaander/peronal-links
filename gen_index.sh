@@ -1,12 +1,15 @@
 #!/bin/bash
 git clone https://github.com/Benjamin-Italiaander/peronal-links.wiki.git
 
+gendate="$(date)"
+
 
 # GENERATE MD file for in Github
 echo -e "# My personal link page \n Here i keep track of intesting sites and stuff. \n" > README.md
 
 echo " This page is generated with the gen_index.sh command"  >> README.md
 echo -e " After making changes at the wiki you need to run the gen_index.sh to update this page \n" >> README.md
+echo -e " Auto generated commit done at $gendate" >> README.md
 
 echo -e "# The links \n" >> README.md
 for f in ./peronal-links.wiki/*; do
