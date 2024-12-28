@@ -11,4 +11,7 @@ for f in ./peronal-links.wiki/*; do
 	fi	
 done
 
+rm -rf ./peronal-links.wiki/
 
+git add *
+git commit -am "index"
