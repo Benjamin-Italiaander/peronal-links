@@ -1,4 +1,5 @@
 #!/bin/bash
+git clone https://github.com/Benjamin-Italiaander/peronal-links.wiki.git
 echo "# My personl link page" > README.md
 
 for f in ./peronal-links.wiki/*; do
