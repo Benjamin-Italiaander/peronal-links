@@ -17,16 +17,13 @@ for f in ./peronal-links.wiki/*; do
 		echo -e "[$title](https://github.com/Benjamin-Italiaander/peronal-links/wiki/$url) $description \n" >> README.md
 	fi	
 done
-# END RENERATE MD file
 
 
 
-
-
-# Generate index file for html
 
 rm -rf ./site
 rm -rf ./docs
+rm ./peronal-links.wiki/_*
 mv ./peronal-links.wiki ./docs
 rm ./docs/Home.md
 rm -rf ./docs/*Footer*
