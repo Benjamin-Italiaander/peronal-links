@@ -6,15 +6,15 @@
 
 # The links 
 
-[Nederlands Duch](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Dutch-‐-Nederlands) Links over de nederlandse taal 
+[Nederlands - Duch](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Dutch-‐-Nederlands) Links over de Nederlandse taal 
 
-[Linux dev tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-CLI-developement-tools) Handy development tools in linux cli 
+[Linux dev tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-CLI-developement-tools) Handy development tools i use in the linux cli 
 
 [Encryption](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-Encrypt-files-and-store-passwords) Encryption tools for linux 
 
-[Linux backup tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-backup-tools) A list of backup tools for linux 
+[Linux backup tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-backup-tools) A list of Linux backup tools 
 
-[Bash tutorials](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-bash-tutorials-i-found-handy-and-clear) Handy bashtools tutorials 
+[Bash tutorials](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-bash-tutorials-i-found-handy-and-clear) Handy bash-tools tutorials 
 
 [CheatSheets](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-cheatsheets) CheatSheets that might be handy to have a look at 
 
@@ -22,9 +22,9 @@
 
 [CLI spreadsheet](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-cli-spreadsheet) Create spreadsheets in Linux CLI 
 
-[Cluster management](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-cluster-management) Cluste management tools 
+[Cluster management](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-cluster-management) Linux cluster management tools 
 
-[code versioning](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-code-version-control) Linux code versioning tools 
+[code versioning](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-code-version-control) GitHub like Linux code versioning tools 
 
 [Math tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-math-tools) Math tools in linux 
 
