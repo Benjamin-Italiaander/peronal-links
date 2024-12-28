@@ -28,7 +28,7 @@
 
 [security tools](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-server-security-tools) Linux security tools 
 
-[virtualisation](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-server-virtualization-tools) Count loggedin users 
+[virtualization](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-server-virtualization-tools) Linux tools for machine virtualization 
 
-[Content creator](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-website-builders) Count loggedin users 
+[Content creator](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-website-builders) Tools to generate static web-content 
 
