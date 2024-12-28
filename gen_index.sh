@@ -2,6 +2,9 @@
 git clone https://github.com/Benjamin-Italiaander/peronal-links.wiki.git
 echo "# My personl link page" > README.md
 
+echo " This page is generated with the gen_index.sh command"  >> README.md
+echo " After making changes at the wiki you need to run the gen_index.sh to update this page" >> README.md
+
 for f in ./peronal-links.wiki/*; do
 	title="$(cat $f | sed -n '/---/,/---/p'  | grep title: | sed 's/^........//' | sed  's/.$//')"
 	if [ "$title" ]; then
