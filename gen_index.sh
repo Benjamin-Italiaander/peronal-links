@@ -24,14 +24,14 @@ done
 rm -rf ./site
 rm -rf ./docs
 rm ./peronal-links.wiki/_*
-mv ./peronal-links.wiki ./docs
+mv -f  ./peronal-links.wiki ./docs
 rm ./docs/Home.md
 rm -rf ./docs/*Footer*
 rm -rf ./_Footer
 
 cp ./README.md ./docs/index.md
 mkdocs build
-mv  ./site/* ./ 
+mv  -f ./site/* ./ 
 rm -rf ./docs
 
 rm -rf ./peronal-links.wiki/
