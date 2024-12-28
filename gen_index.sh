@@ -15,3 +15,4 @@ rm -rf ./peronal-links.wiki/
 
 git add *
 git commit -am "index"
+git push
