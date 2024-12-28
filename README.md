@@ -4,7 +4,7 @@
  This page is generated with the gen_index.sh command
  After making changes at the wiki you need to run the gen_index.sh to update this page 
 
- Auto generated commit done at Sat Dec 28 18:32:14 CET 2024
+ Auto generated commit done at Sat Dec 28 18:47:12 CET 2024
 # The links 
 
 [Nederlands - Duch](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Dutch-‐-Nederlands) Links over de Nederlandse taal 
@@ -34,4 +34,6 @@
 [virtualization](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-server-virtualization-tools) Linux tools for machine virtualization 
 
 [Content creator](https://github.com/Benjamin-Italiaander/peronal-links/wiki/Linux-‐-website-builders) Tools to generate static web-content 
+
+[Misc](https://github.com/Benjamin-Italiaander/peronal-links/wiki/best-of-lists) More stuff 
 
