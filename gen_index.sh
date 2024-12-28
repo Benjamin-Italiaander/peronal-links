@@ -6,7 +6,7 @@ for f in ./peronal-links.wiki/*; do
 	title="$(cat $f | sed -n '/---/,/---/p'  | grep title: | sed 's/^........//' | sed  's/.$//')"
 	if [ "$title" ]; then
 		description="$(cat $f | sed -n '/---/,/---/p'  | grep description: | sed 's/^..............//' | sed  's/.$//')"
-		url="$(echo $f | sed 's/^...//' | sed  's/...$//')"	
+		url="$(echo $f | sed 's/^.....................//' | sed  's/...$//')"	
 		echo -e "[$title](https://github.com/Benjamin-Italiaander/peronal-links/wiki/$url) $description \n" >> README.md
 	fi	
 done
