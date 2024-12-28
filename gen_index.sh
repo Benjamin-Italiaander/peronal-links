@@ -1,6 +1,6 @@
 #!/bin/bash
 git clone https://github.com/Benjamin-Italiaander/peronal-links.wiki.git
-echo -e "# My personal link page \n here a keep track of intesting sites and stuff" > README.md
+echo -e "# My personal link page \n here a keep track of intesting sites and stuff. \n" > README.md
 
 echo " This page is generated with the gen_index.sh command"  >> README.md
 echo -e " After making changes at the wiki you need to run the gen_index.sh to update this page \n" >> README.md
