@@ -24,7 +24,7 @@ done
 rm -rf ./site
 rm -rf ./docs
 rm ./peronal-links.wiki/_*
-mv -f  ./peronal-links.wiki ./docs
+mv -f ./peronal-links.wiki ./docs
 rm ./docs/Home.md
 rm -rf ./docs/*Footer*
 rm -rf ./_Footer
