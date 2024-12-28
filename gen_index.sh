@@ -1,5 +1,8 @@
 #!/bin/bash
 git clone https://github.com/Benjamin-Italiaander/peronal-links.wiki.git
+
+
+# GENERATE MD file for in Github
 echo -e "# My personal link page \n Here a keep track of intesting sites and stuff. \n" > README.md
 
 echo " This page is generated with the gen_index.sh command"  >> README.md
@@ -14,9 +17,25 @@ for f in ./peronal-links.wiki/*; do
 		echo -e "[$title](https://github.com/Benjamin-Italiaander/peronal-links/wiki/$url) $description \n" >> README.md
 	fi	
 done
+# END RENERATE MD file
+
+
+
+
+
+# Generate index file for html
+
+rm -rf ./site
+rm -rf ./docs
+mv ./peronal-links.wiki ./docs
+rm ./docs/Home.md
+cp ./README.md ./docs/index.md
+mkdocs build
+mv  ./site/* ./ 
+rm -rf ./docs
 
 rm -rf ./peronal-links.wiki/
-
-#git add *
-#git commit -am "index"
-#git push
+rm -rf ./site
+git add *
+git commit -am "index"
+git push
