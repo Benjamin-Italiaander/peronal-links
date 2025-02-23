@@ -38,7 +38,7 @@ mkdocs build
 
 for site in ./site/*; do
 	file="$(echo $site | sed 's/^.......//')"
-	rm -rf ./$file
+ 	rm -rf ./$file
 done
 
 mv  ./site/* ./ 
